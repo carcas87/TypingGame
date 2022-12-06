@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap')
+*{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Open Sans';
+}
+body{
+    text-align: center;   
+}
+.contenedor{
+    max-width: 600px;
+    margin: auto;
+    height: 100vh;
+    border: 2px solid #ccc;
+    background: linear-gradient(to top, #703a7c, #ca547d);
+} 
+/* pantalla inicio*/
+#inicio{
+    display: none;
+}
+h1{
+    background-color: #1b2631;
+    color: white;
+    padding: 10px 0;
+}
+#inicio img{
+    width: 250px;
+    margin: 30px;
+}
+#inicio p{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 30px;
+}
+.button{
+    padding: 15px;
+    background: #cbcbcb;
+    font-size: 18px;
+    color: rgb(219, 114, 66);
+    border: none;
+    font-weight: 600;
+    margin: 30px;
+    cursor: pointer;
+    display:inline-block;
+}
+
+/*pantalla juego* /
+#juego{
+    display: block;
+    padding: 10px;
+}
+#juego .tiempo{
+    border: 4px solid #ebbe53;
+width: 60px;
+height: 60px;
+border-radius: 50%;
+margin: 10px ;
+}
