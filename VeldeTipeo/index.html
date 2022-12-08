@@ -10,31 +10,34 @@
     <div class="contenedor">
         <h1>Velocity Speed type</h1>
         <!--pantallla inicio-->
-        <div id="inicio">
-            <img src="/tipeo1.jpg" alt="">
+        <div id="inicio" >
+           <img src="/tipeo1.jpg" alt=""> 
             <p> We.. ¿Cuantas palabras puedes tipear en un minuto??</p>
-            <button class="button">Start Game</button>
+            <button class="button" onclick="comenzarJuego()">Inicio</button>
         </div>
 
         <!--pantallla  game-->
         <div class="juego" id="juego">
-            <div id="juego" class="tiempo">59</div>
+        <!--my importante si esta mal id tiempo causa fallas al iniciar juego!!!!-->
+            <div id="tiempo" class="tiempo">59</div>   
             <div id="palabra" class="palabra_estilo">PALABRA</div>
 
-            <input type="text" placeholder="Escribe aqui..." id="palabra_ingresada" class="entrada">
+            <input type="text" placeholder="Escribe aqui..." id="palabra_ingresada" class="entrada" onkeyup="comparar()">
             <div class="listado" id="registro">
                 <h3>Palabras Tipeadas</h3>
+
             </div>
         </div>
 
         <!-- pantalla final-->
         <div class="estilo_final" id="final">
             <p class="texto_final">Palabras tipeadas en un minuto</p>
-            <div class="estilo_cantidad_final" id="cantidad_final">30
+            <div class="estilo_cantidad_final" id="cantidad_final">
             </div>
-
+        
             <a href="index.html" class="button">Jugar de nuevo </a>
         </div>
+    
     </div>
 
     <script src="script/scritur.js"></script>
