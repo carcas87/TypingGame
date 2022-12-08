@@ -13,7 +13,7 @@ body {
     margin: auto;
     height: 100vh;
     border: 2px solid #ccc;
-    background: linear-gradient(to top, #703a7c, #ca547d);
+    background: linear-gradient(to top, #630877, #ca547d);
 }
 /* pantalla inicio*/
 #inicio {
@@ -26,11 +26,12 @@ h1 {
 }
 
 #inicio img {
-    width: 210px;
+    width: 280px;
     margin: 30px;
+    border-radius: 30px;
 }
 
-#inicio p {
+#inicio p{
     color: white;
     font-size: 25px;
     font-weight: 600;
@@ -42,17 +43,18 @@ h1 {
     background: #0d02ac;
     font-size: 18px;
     color: white;
-    border: none;
+    border-radius: 40px;
     font-weight: 600;
     margin: 30px;
     cursor: pointer;
     display: inline-block;
+
 }
 
 
 /*pantalla juego es necesario para ocultar tempralmente la imagen sino marca error*/
 #juego {
-    display: block;
+    display: none;
     padding: 10px;
 }
 
@@ -106,7 +108,7 @@ h1 {
 
 /*PANTALLA FINAL*/
 #final {
-    display: block;
+    display: none;
 }
 
 .texto_final {
